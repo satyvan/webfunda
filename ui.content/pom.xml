@@ -58,7 +58,8 @@
                         </jackrabbit-nodetypes>
                         <jackrabbit-filter>
                             <options>
-                                <validRoots>/conf,/content,/content/experience-fragments,/content/dam</validRoots>
+                                <!-- <validRoots>/conf,/content,/content/experience-fragments,/content/dam</validRoots> -->
+                                <validRoots>/conf</validRoots>
                             </options>
                         </jackrabbit-filter>
                     </validatorsSettings>
