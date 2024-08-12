@@ -13,3 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ###############################################################################
+#base=css
+animate.css
+bootstrap-select.min.css
+drift-basic.min.css
+image-compare-viewer.min.css
+photoswipe.css
+styles.css
+swiper-bundle.min.css
