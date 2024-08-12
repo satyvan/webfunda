@@ -42,6 +42,10 @@ Or to deploy only a single content package, run in the sub-module directory (i.e
 
     mvn clean install -PautoInstallPackage
 
+    mvn clean install -PautoInstallPackage -Padobe-Public
+
+
+
 ## Testing
 
 There are three levels of testing contained in the project:
