@@ -3,29 +3,28 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2024-08-20T23:54:48.792+05:30"
-        cq:lastModifiedBy="admin"
-        cq:template="/conf/satj/settings/wcm/templates/page-content"
+        cq:template="/conf/satj/settings/wcm/templates/fff"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="satj/components/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="satj/components/container"
             layout="responsiveGrid">
+            <header
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="satj/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="satj/components/container"
-                layout="responsiveGrid">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="satj/components/title"
-                    editable="{Boolean}true"/>
-                <container
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="satj/components/container"
-                    editable="{Boolean}true"
-                    layout="responsiveGrid"/>
-            </container>
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
+            <footer
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="satj/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
