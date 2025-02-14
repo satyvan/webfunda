@@ -1,0 +1,61 @@
+
+<header id="header" class="header-default">
+    <div class="px_15 lg-px_40">
+        <div class="row wrapper-header align-items-center">
+            <sly data-sly-include=logo.html />
+            <sly data-sly-use.header=com.adobe.aem.guides.satj.core.models.HeaderModel />
+
+            ${header.title}
+
+            <div class="col-xl-6 tf-md-hidden">
+                <nav class="box-navigation text-center">
+                    <ul class="box-nav-ul d-flex align-items-center justify-content-center gap-30">
+                        <li class="menu-item">
+                            <a href="#" class="item-link">Home<i class="icon icon-arrow-down"></i></a>
+
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="item-link">Shop<i class="icon icon-arrow-down"></i></a>
+                            <div class="sub-menu mega-menu">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <div class="mega-menu-item">
+                                                <div class="menu-heading">Shop layouts</div>
+                                                <ul class="menu-list">
+                                                    <li><a href="shop-default.html" class="menu-link-text link">Default</a></li>
+                                                    <li><a href="shop-left-sidebar.html" class="menu-link-text link">Left sidebar</a></li>
+                                                    <li><a href="shop-right-sidebar.html" class="menu-link-text link">Right sidebar</a></li>
+                                                    <li><a href="shop-fullwidth.html" class="menu-link-text link">Fullwidth</a></li>
+                                                    <li><a href="shop-collection-sub.html" class="menu-link-text link">Sub collection</a></li>
+                                                    <li><a href="shop-collection-list.html" class="menu-link-text link">Collections list</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="item-link">Products<i class="icon icon-arrow-down"></i></a>
+
+                        </li>
+                        <li class="menu-item position-relative">
+                            <a href="#" class="item-link">Pages<i class="icon icon-arrow-down"></i></a>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- <div class="col-xl-3 col-md-4 col-3">
+                <ul class="nav-icon d-flex justify-content-end align-items-center gap-20">
+                    <li class="nav-search"><a href="#canvasSearch" data-bs-toggle="offcanvas" aria-controls="offcanvasLeft" class="nav-icon-item"><i class="icon icon-search"></i></a></li>
+                    <li class="nav-account"><a href="#login" data-bs-toggle="modal" class="nav-icon-item"><i class="icon icon-account"></i></a></li>
+                    <li class="nav-wishlist"><a href="wishlist.html" class="nav-icon-item"><i class="icon icon-heart"></i><span class="count-box">0</span></a></li>
+                    <li class="nav-cart"><a href="#shoppingCart" data-bs-toggle="modal" class="nav-icon-item"><i class="icon icon-bag"></i><span class="count-box">0</span></a></li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+</header>
+<!-- /Header -->
